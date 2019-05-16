@@ -1,3 +1,6 @@
+# https://medium.com/@leo_hetsch/ruby-modules-include-vs-prepend-vs-extend-f09837a5b073
+#
+
 module ServiceDebugger
   def run(args)
     puts "Service run start: #{args.inspect}"
