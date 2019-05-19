@@ -12,6 +12,7 @@ class MyClass
   def initialize(param_one, param_two)
     self.variable_one = param_one
     self.variable_two = param_two
+    puts "initialize -> #{self}:#{self.__id__}"
   end
 end
 
